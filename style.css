@@ -32,10 +32,6 @@
   border-radius: 100%;
 }
 
-.timeline-label {
-  margin-left: 0.25rem;
-}
-
 .timeline-content {
   flex-grow: 2;
   margin-left: 1rem;

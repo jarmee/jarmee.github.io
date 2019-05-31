@@ -43,4 +43,5 @@
 
 .placeholder {
   height: 100vh;
+  min-height: 1024px;
 }

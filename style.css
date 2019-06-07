@@ -41,3 +41,42 @@
   height: 100vh;
   min-height: 1024px;
 }
+
+.repositories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.repository {
+  padding: 1rem;
+  font-size: 0.75rem;
+  width: 100%;
+  border-bottom: 1px solid #f7f7f7;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.repository-content {
+  align-content: stretch;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  cursor: pointer;
+  flex: 2;
+  color: #6c757d;
+}
+
+.repository-footer {
+  margin-top: 10px;
+}
+
+.repository-language {
+  display: inline-block;
+  float: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #2b7489;
+  margin-right: 3px;
+}
